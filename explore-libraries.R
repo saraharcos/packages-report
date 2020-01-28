@@ -58,7 +58,7 @@ ggplot(pg, aes(x = LibPath, fill = Priority)) +
 
 #Not every package is base or recommended, the others are labelled as "NA"
 
-
+devtools::session_info()
 
 
 

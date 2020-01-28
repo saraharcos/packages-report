@@ -22,3 +22,6 @@ ggsave(here("figs", "built-barchart.png"))
 
 ## YES overwrite the file that is there now
 ## that's old output from me (Jenny)
+
+devtools::session_info()
+
